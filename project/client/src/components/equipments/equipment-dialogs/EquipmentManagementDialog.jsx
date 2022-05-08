@@ -15,7 +15,7 @@ import {
 } from '@material-ui/core';
 import CloudUploadIcon from "@material-ui/icons/CloudUpload";
 import { crateEquipmentsService, updateEquipmentsServices } from '../../../services/EquipmentsServices';
-import { equipmentsValidation } from '../../../validations/EquipmentsValidation';
+import { equipmentsValidation } from '../../../validations/EquipmentsSalesValidation';
 import { SweetAlert } from '../../../services/SweetAlert';
 import empImg from "../../../assets/images/img.jpg"
 

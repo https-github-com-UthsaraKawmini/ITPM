@@ -8,7 +8,7 @@ import AllEquipment from './equipment/all-equipment';
 import CreateEquipments from './equipment/create-equipment';
 import AllUsers from './all-users';
 import AdminNaviagator from '../shared/AdminNavigator';
-
+import AllEmployees from '../employee/all-employees/AllEmployees';
 const AdminContainer = () => {
     return (
         <React.Fragment>
@@ -19,6 +19,9 @@ const AdminContainer = () => {
                 </Route>
                 <Route path="/admin/create-equipment">
                    <CreateEquipments/>
+                </Route>
+                <Route path="/admin/AllEmployees">
+                    <AllEmployees />
                 </Route>
                 <Route path="/">
                    <AllUsers/>
